@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".busqueda.MainActivity">
+    tools:context=".MainActivity">
 
     <Button
         android:id="@+id/btnBuscarV"
@@ -12,8 +12,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="58dp"
-        android:layout_marginTop="180dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="58dp"
         android:text="Volley"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,42 +21,14 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="218dp" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="43dp"
-        android:text="ID"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="31dp"
-        tools:layout_editor_absoluteY="57dp" />
-
-    <EditText
-        android:id="@+id/txtCodigo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="82dp"
-        android:layout_marginTop="32dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="46dp" />
-
     <Button
         android:id="@+id/btnBuscarR"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="179dp"
-        android:layout_marginEnd="109dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="113dp"
         android:text="Retrofit"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="233dp"
@@ -64,17 +36,29 @@
 
     <EditText
         android:id="@+id/mltxt_resultado"
-        android:layout_width="329dp"
-        android:layout_height="270dp"
+        android:layout_width="404dp"
+        android:layout_height="469dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="34dp"
-        android:layout_marginBottom="81dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="9dp"
         android:ems="10"
         android:gravity="start|top"
         android:inputType="textMultiLine"
         tools:layout_editor_absoluteX="48dp"
         tools:layout_editor_absoluteY="310dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="14dp"
+        android:text="Usuarios"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
 </RelativeLayout>
